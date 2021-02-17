@@ -1,0 +1,1 @@
+TELEGRAM_REVERSE_URL = 'telegram'

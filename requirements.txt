@@ -1,0 +1,5 @@
+django==3.1.6
+gunicorn
+django-heroku
+djangorestframework==3.12.2
+pyTelegramBotAPI==3.7.6
