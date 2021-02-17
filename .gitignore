@@ -4,4 +4,4 @@ __pycache__/
 envs/*
 staticfiles/*
 *.sqlite3
-*local_settings.py
+local_settings.py
