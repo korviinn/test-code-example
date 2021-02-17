@@ -2,7 +2,7 @@
   "name": "Start on Heroku: Python",
   "description": "A barebones Python app, which can easily be deployed to Heroku.",
   "image": "heroku/python",
-  "repository": "https://github.com/korviinn/telegram-bets-test",
+  "repository": "https://github.com/korviinn/test-code-example",
   "keywords": ["python", "django" ],
   "addons": [ "heroku-postgresql" ],
   "env": {
@@ -15,7 +15,7 @@
     "test": {
       "scripts": {
         "test-setup": "python manage.py collectstatic --noinput",
-        "test": "python manage.py test"
+        "test": "python manage.py test --settings='core.settings.test'"
       }
     }
   }
